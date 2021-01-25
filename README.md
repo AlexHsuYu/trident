@@ -6,12 +6,13 @@ Predict the classification of the characteristic curve based on the temperature 
 cooperate with [@Michael-Liao](https://github.com/https://github.com/Michael-Liao)
 
 ## Installation
+
+### go to the project directory install by setup.py
 ```bash
-# go to the project directory
 cd trident
 pip install .
 ```
-you can also run inside docker
+### you can also run inside docker
 ```bash
 cd trident
 docker build -t trident -f Dockerfile . # build the image
@@ -39,6 +40,6 @@ python -m trident [train/test]
 * `/log`: resulting csv file
 
 ## Development
-we use `pipenv` as our virtual environment  
+we use `pipenv` as our virtual environment 
 all the require packages are in the Pipfile
 
